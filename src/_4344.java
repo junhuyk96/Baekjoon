@@ -22,10 +22,7 @@ public class _4344 {
             for(int j=0; j<num; j++) {
                 if(avg < arr[j]) cnt++;
             }
-            System.out.println(cnt + " " + num);
-            System.out.println(avg);
             double res = (double) cnt / num;
-            System.out.println(res);
             res*=100;
             res = Math.round(res * 1000) / 1000.0;
 
